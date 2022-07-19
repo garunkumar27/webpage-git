@@ -660,7 +660,6 @@ a.left:hover:befor{
     opacity: 0;
 }
 .chefs-about-seperate{
-    /* padding: 50px; */
     margin-top: 20px;
    
 }
@@ -680,8 +679,6 @@ a.left:hover:befor{
 .chefs-3rd-box{
     width: 380px;
     height: 600px;
-    /* padding: 30px; */
-    box-shadow: #817474 0px 0px 10px;
     margin-left: 20px;
 }
 .chefs-icon a {
@@ -714,4 +711,82 @@ a.left:hover:befor{
 }
 .chefs-content-para p{
     font-size: 18px;
+}
+/* BOOK A TABLE */
+.book-your-stay{
+    width: 1300px;
+}
+.book-your-stay-header{
+    text-align: center;
+    margin-top: 20px;
+}
+.book-your-stay-header h6{
+    font-size: 17px;
+    padding: 20px;
+    line-height: 28px;
+    color: #5f5959;
+}
+.book-your-stay-header p{
+    font-size: 25px;
+    padding-bottom: 20px;
+    font-family: "Amatic SC", sans-serif;
+}
+.book-your-stay-header span{
+    font-size: 25px;
+    color: #ce1212;
+    font-family: "Amatic SC", sans-serif;
+}
+.book-your-stay-whole{
+    display: flex;
+    justify-content: space-around;
+}
+.book-your-stay-left{
+    width: 375px;
+}
+.book-your-stay-right{
+    width: 800px;
+}
+.book-your-stay-details{
+    display: flex;
+    flex-wrap: wrap;
+}
+.book-your-name{
+    width: 260px;
+}
+/* GALLERY */
+.gallery{
+    width: 1300px;
+    margin-top: 10px;
+}
+.gallery-header{
+    text-align: center;
+    line-height: 28px;
+}
+.gallery-header h6{
+    font-size: 17px;
+    padding: 20px;
+    line-height: 28px;
+    color: #5f5959;
+}
+.gallery-header p{
+    font-size: 25px;
+    font-family: "Amatic SC", sans-serif;
+}
+.gallery-header span{
+    font-size: 25px;
+    color: #ce1212;
+    font-family: "Amatic SC", sans-serif;
+}
+.gallery-image{
+    display: flex;
+    justify-content: center;
+    width: 1300PX;
+    margin-top: 40px;
+    height: 180px;
+}
+.gallery-image img{
+    padding: 5px;
+}
+.gallery-img3{
+    border: 8px solid #ce1212;
 }
