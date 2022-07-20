@@ -689,7 +689,7 @@ a.left:hover:befor{
     font-size: 20px;
 }
 .chefs-about-seperate{
-    height: 560px;
+    height: 540px;
     width: 360px;
 }
 .chefs-content1,
@@ -707,10 +707,15 @@ a.left:hover:befor{
 .chefs-content2 span,
 .chefs-content3 span{
     font-size: 18px;
-    color: rgba(255, 238, 238, 0.933);
+    color: rgba(171, 155, 155, 0.933);
 }
-.chefs-content-para p{
+.chefs-content-para {
     font-size: 18px;
+    text-align: center;
+    width: 250px;
+    margin-left: 50px;
+    font-style:italic;
+    margin-top: 10px;
 }
 /* BOOK A TABLE */
 .book-your-stay{
@@ -742,16 +747,58 @@ a.left:hover:befor{
 }
 .book-your-stay-left{
     width: 375px;
+    margin-top: 20px;
+}
+.book-your-stay-left img{
+    margin-left: 40px;
 }
 .book-your-stay-right{
-    width: 800px;
+    width: 700px;
 }
 .book-your-stay-details{
-    display: flex;
-    flex-wrap: wrap;
+    margin-top: 100px;
 }
-.book-your-name{
-    width: 260px;
+input{
+    width: 180px;
+    height: 40px;
+    margin: 15px 0px 0px 20px;
+    font-family: inherit;
+    font-size: inherit;
+    outline:1px solid #bfb5b5;
+    border: none;
+}
+textarea{
+    width: 595px;
+    height: 100px;
+    margin: 20px;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: 1.5;
+    outline:1px solid #bfb5b5;
+    border: none;
+}
+.book-your-section-table {
+    text-align: center;
+}
+.book-your-section-table a{
+    color: #fff;
+    padding: 14px 60px;
+    font-family: inherit;
+    font-size: inherit;
+    text-decoration: none;
+    border-radius: 20px;
+    display: inline-block;
+    background-color: #ce1212;
+
+}
+input:focus,
+textarea:focus{
+    outline: 1px solid #ce1212;
+    border: none;
+}
+.book-your-section-table a:hover{
+    background-color: #e51212;
+    transition: 0.5s;
 }
 /* GALLERY */
 .gallery{
@@ -789,4 +836,153 @@ a.left:hover:befor{
 }
 .gallery-img3{
     border: 8px solid #ce1212;
+}
+/* CONTACT */
+.contact{
+    width: 1300px;
+    margin-top: 20px;
+}
+.contact-header{
+    text-align: center;
+    line-height: 28px;
+}
+.contact-header h6{
+    font-size: 17px;
+    padding: 20px;
+    line-height: 28px;
+    color: #5f5959;
+}
+.contact-header p{
+    font-size: 25px;
+    font-family: "Amatic SC", sans-serif;
+}
+.contact-header span{
+    font-size: 25px;
+    color: #ce1212;
+    font-family: "Amatic SC", sans-serif;
+}
+.google-map{
+    padding: 20px 100px;
+}
+.google-map iframe{ 
+    width: 1120px;
+}
+.contact-content{
+    display: flex;
+    flex-wrap: wrap;
+}
+.contact-content-details{
+    display: flex;
+    width: 500px;
+    height: 100px;
+    margin: 0px 0px 0px 120px;
+}
+.contact-content-details i{
+    font-size: 28px;
+    color: #fff;
+    position: absolute;
+    left: 11px;
+    top: 11px
+}
+.contact-icon-bg{
+    background-color: #ce1212;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    position: relative;
+}
+.contact-content-details{
+    margin-top: 20px;
+}
+.contact-content-details p{
+    font-size: 22px;
+    color: #635555;
+    margin-left: 10px;
+    line-height: 1.5;
+}
+.contact-content-details p span{
+    font-size: 18px;
+    color: rgb(41, 39, 39);
+}
+.contact-form{
+    margin-left: 120px;
+}
+.contact-name{
+    width: 500px; 
+}
+.contact-subject,
+.contact-message{
+    width: 1028px;
+}
+.contact-send-msg{
+    text-align: center;
+}
+.contact-send-msg a{
+    display: inline-block;
+    padding: 10px 45px ;
+    background-color: #ce1212;
+    color: #fff;
+    font-size: inherit;
+    font-family: inherit;
+    text-decoration: none;
+    border-radius: 30px;
+}
+/* COPYRIGHT */
+.copyright{
+    width: 1300px;
+    margin-top: 40px;
+    
+}
+.copyright-section{
+    background-color: #1f1f24;
+    height: 250px;
+}
+.copyright-content{
+    display: flex;
+    justify-content: space-evenly;
+}
+.copyright-text{
+    margin-top: 50px;
+    display: flex;
+}
+.copyright-text i{
+    color: #fff;
+    font-size: 28px;
+}
+.copyright-text p{
+    font-size: 20px;
+    color: #fff;
+    margin-left: 15px;
+    font-weight: 600;
+}
+.copyright-text p span{
+    color: #817474;
+    font-size: 17px;
+}
+.copyright-follow{
+    margin-top: 50px;
+    line-height: 1.8;
+}
+.copyright-follow p{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.copyright-follow a{
+    text-decoration: none;
+    color:#817474;
+    border-radius: 50px;
+    background-color: #cbcbd9;
+    font-size: 22px;
+    padding: 5px;
+    margin-left: 10px;
+
+}
+.copyright-icon-bg{
+    border-radius: 50px;
+    background-color: #cbcbd9;
+    height: 0px;
+    width: 60px;
+
 }
