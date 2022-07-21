@@ -22,7 +22,12 @@
     color: rgb(0,0,0);
     margin:10px 0px 0px 20px;
 }
+.navigation-logo span{
+    color: #ce1212;
+    font-size: larger;
+}
 .navigation-bar{
+    position: relative;
     display: flex;
     width: 600px;
     justify-content: space-evenly;
@@ -49,32 +54,25 @@
     background-color: #bc4343;
     transition: 0.6s;
 }
-/* a.left{
+.active{
     position: relative;
 }
-a.left:before{
-    content: "";
+.active::after{
+    content:"";
+    display: inline-block;
     position: absolute;
+    bottom: 20px;
+    left: 0;
     width: 0;
     height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: #1fd60e;
-    visibility: hidden;
-    transition: all 0.3s ease-in-out;
-} 
-a.left:hover:befor{
-    visibility: visible;
+    background-color: #ce1212;
+    transition: width 0.2s;
+}
+.active:hover:after{
     width: 100%;
-}*/
-.line{
-    width: 50px;
-    border:1px solid #ce1212;
-    opacity: 0;
 }
 .navigation-bar li a{
     text-decoration: none;
-    padding: 10px;
     color: rgb(74, 65, 65);
 }
 .navigation-bar li a:hover{
@@ -944,6 +942,7 @@ textarea:focus{
 .copyright-text{
     margin-top: 50px;
     display: flex;
+    margin-bottom: 20px;
 }
 .copyright-text i{
     color: #fff;
@@ -969,20 +968,39 @@ textarea:focus{
     font-weight: 600;
 
 }
-.copyright-follow a{
-    text-decoration: none;
-    color:#817474;
-    border-radius: 50px;
-    background-color: #cbcbd9;
+.copyright-follow-icon a{
+    align-items: center;
+    width: 40px;
+    height: 40px;
     font-size: 22px;
-    padding: 5px;
-    margin-left: 10px;
-
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    display: inline-block; 
+    text-align: center;
 }
-.copyright-icon-bg{
-    border-radius: 50px;
-    background-color: #cbcbd9;
-    height: 0px;
-    width: 60px;
-
+.copyright-follow-icon a:hover{
+    border:1px solid #fff ;
+    transition: 0.3s;
+}
+.copyright-last{
+   text-align: center;
+   color: #fff;
+   margin-top: 20px;
+   line-height: 1.6;
+}
+.copyright-last h6{
+    color: #928585;
+    font-size: 17px;
+}
+.copyright-last p{
+    color: #928585;
+}
+.copyright-last span{
+    color: #fff;
+}
+.copyright-line{
+    width: 89%;
+    border-bottom: 1px solid rgb(47, 42, 42);
 }
