@@ -67,7 +67,7 @@
     width: 0;
     height: 2px;
     background-color: #ce1212;
-    transition: width 0.2s;
+    transition: all 0.2s;
 }
 .active:hover:after{
     width: 100%;
@@ -100,19 +100,20 @@
 }
 .healthy-left h3{
     font-size: 45px;
-    color: rgba(136, 119, 119, 0.933);
+    color: #37373f;
     padding: 60px;
-    width: 500px;
-    font-family:"Open Sans", system-ui, -apple-system, "Segoe UI", 
-    Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", 
-    sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; 
+    width: 300px;
+    font-family: "Amatic SC", sans-serif;
     font-weight: 400;
 }
 .healthy-left p{
     margin-left: 62px;
     font-size: 19px;
     color: rgb(129, 116, 116);
+    font-family:"Open Sans", system-ui, -apple-system, "Segoe UI", 
+    Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", 
+    sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 
 }
 .book-watch{
@@ -176,12 +177,16 @@
     color: rgb(177, 158, 158);
 }
 .about-header p{
-    font-size: 30px;
+    font-size: 48px;
+    font-weight: 400; 
+    color: #212529;;  
     font-family: "Amatic SC", sans-serif;
+    opacity: 0.8;
 }
 .red-about{
     color: #c62424;
-    font-size: 30px;
+    font-weight: 400; 
+    color: #212529;;  
     font-family: "Amatic SC", sans-serif;
 }
 .about-leftright{
@@ -377,13 +382,17 @@
     color: #5f5959;
 }
 .check-your{
-    font-size: 30px;
-    font-family:  "Inter", sans-serif;
+    font-size: 46px;
+    font-weight: 400; 
+    color: #212529;;  
+    font-family: "Amatic SC", sans-serif;
+    opacity: 0.8;
 }
 .yummy-menu{
     color: #ce1212;
-    font-size: 30px;
-    font-family:  "Inter", sans-serif;
+    font-size: 48px;
+    font-weight: 400; 
+    font-family: "Amatic SC", sans-serif;
 }
 .check-yummy-header h6{
     padding: 20px;
@@ -467,13 +476,19 @@
     padding: 10px;
 }
 .testi-what{
-    font-size: 30px;
-    font-family:  "Amatic SC", sans-serif;
+    font-size: 48px;
+    font-weight: 400; 
+    color: #212529;;  
+    font-family: "Amatic SC", sans-serif;
+    opacity: 0.8;
 }
 .testi-saying{
     color: #ce1212;
-    font-size: 30px;
-    font-family:  "Amatic SC", sans-serif;
+    font-size: 48px;
+    font-weight: 400; 
+    color: #212529;;  
+    font-family: "Amatic SC", sans-serif;
+    opacity: 0.8;
 }
 .testi-content{
     display: flex;
@@ -535,12 +550,16 @@
     color: #5f5959;
 }
 .events-header p{
-    font-size: 25px;
-    padding-bottom: 20px;
+    font-size: 48px;
+    font-weight: 400; 
+    color: #212529;;  
     font-family: "Amatic SC", sans-serif;
+    padding-bottom: 20px;
+    opacity: 0.8;
 }
 .events-moments{
-    font-size: 25px;
+    font-size: 48px;
+    font-weight: 400;
     color: #ce1212;
     font-family: "Amatic SC", sans-serif;
 }
@@ -628,12 +647,16 @@
     color: #5f5959;
 }
 .chefs-header span{
-    font-size: 25px;
-    color: #ce1212;
+    font-size: 48px;
+    font-weight: 400;   
     font-family: "Amatic SC", sans-serif;
+    color: #ce1212;
+    
 }
 .chefs-header p{ 
-    font-size: 25px;
+    font-size: 48px;
+    font-weight: 400; 
+    color: #212529;;  
     font-family: "Amatic SC", sans-serif;
 }
 .chefs-about{
@@ -733,12 +756,16 @@
     color: #5f5959;
 }
 .book-your-stay-header p{
-    font-size: 25px;
-    padding-bottom: 20px;
+    font-size: 48px;
+    font-weight: 400; 
+    color: #212529;;  
     font-family: "Amatic SC", sans-serif;
+    padding-bottom: 20px;
+    opacity: 0.8;
 }
 .book-your-stay-header span{
-    font-size: 25px;
+    font-size: 48px;
+    font-weight: 400; 
     color: #ce1212;
     font-family: "Amatic SC", sans-serif;
 }
@@ -817,11 +844,16 @@ textarea:focus{
     color: #5f5959;
 }
 .gallery-header p{
-    font-size: 25px;
+    font-size: 48px;
+    font-weight: 400; 
+    color: #212529;  
+    opacity: 0.8;
     font-family: "Amatic SC", sans-serif;
 }
 .gallery-header span{
-    font-size: 25px;
+    font-size: 48px;
+    font-weight: 400;   
+    font-family: "Amatic SC", sans-serif;
     color: #ce1212;
     font-family: "Amatic SC", sans-serif;
 }
@@ -854,11 +886,16 @@ textarea:focus{
     color: #5f5959;
 }
 .contact-header p{
-    font-size: 25px;
+    font-size: 48px;
+    font-weight: 400; 
+    color: #212529;
     font-family: "Amatic SC", sans-serif;
+    opacity: 0.8;
 }
 .contact-header span{
-    font-size: 25px;
+    font-size: 48px;
+    font-weight: 400; 
+    font-family: "Amatic SC", sans-serif;
     color: #ce1212;
     font-family: "Amatic SC", sans-serif;
 }
